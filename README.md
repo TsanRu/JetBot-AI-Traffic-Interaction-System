@@ -30,4 +30,14 @@ The final implementation integrates three components originally developed as sep
 ---  
 
 ## System Data Flow  
-
+JetBot Camera
+↓
+Road-Following Model (TensorRT)
+↓ (Controls Motors)
+YOLO Traffic Sign Detection (TensorRT)
+↓ (Detected Sign)
+Local FastAPI Server (on PC)
+↓
+OpenAI Language Reasoning
+↓
+JetBot Action Response / Human-Readable Explanation
