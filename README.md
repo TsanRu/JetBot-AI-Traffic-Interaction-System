@@ -68,3 +68,32 @@ JetBot-AI-Traffic-Interaction-System/
 │ └─ README.md # "Insert downloaded model files here"  
 │  
 └─ requirements.txt # Environment dependencies  
+
+> **Note:** Model files are **not** included in this repository and should be placed manually in `/models/`.  
+> (Download link to be provided by the user.)  
+
+---
+
+## Hardware & Software Environment
+
+- NVIDIA Jetson Nano / JetBot platform  
+- Python 3.6+  
+- TensorRT + PyCUDA optimization  
+- YOLOv4-tiny traffic sign model  
+- FastAPI server running on PC  
+- OpenAI API for semantic interpretation  
+
+---
+
+## Execution Notes
+
+1. Place trained models in `/models/`  
+2. Start FastAPI server on PC  
+3. Connect JetBot and PC to the same network  
+4. Run `final.ipynb` to begin road following and sign detection  
+
+---
+
+## Acknowledgements  
+
+This project was developed as part of an embedded systems curriculum focused on AI-driven autonomous navigation and human-interactive robotics.  
