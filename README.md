@@ -52,6 +52,30 @@ graph TD
     G --> H[JetBot Action Response / Explanation];
     H --> D;
 ```
+
+flowchart TD
+
+%% Camera Input
+A[JetBot Camera] --> B[Road-Following Model (TensorRT)]
+
+%% Navigation Output
+B --> C[Motor Control]
+
+%% Parallel Thread for Detection
+A --> D[YOLOv4-tiny Traffic Sign Detection]
+
+%% Sign Detected
+D -->|Detected Sign / Label| E[FastAPI Server (PC)]
+
+%% Semantic Reasoning
+E --> F[OpenAI API]
+F --> E
+
+%% Response Returned to JetBot
+E --> G[Behavior Adjustment Logic]
+
+%% Control Update
+G --> C
 ---
 
 ## Key Features
