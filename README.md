@@ -68,13 +68,14 @@ graph TD
 
 ```bash
 JetBot-AI-Traffic-Interaction-System/
+├── detected_img/               # Output directory for detected signs
 ├── final/
 │   └── final.ipynb             # Main execution notebook
 ├── server/
 │   └── server.py               # FastAPI server script (Runs on PC)
 ├── standard_sign/              # Reference sign images for OpenAI prompt
-├── detected_img/               # Output directory for detected signs
 ├── models/                     # Placeholder: Insert model files here
+├── utils/                      # YOLO helper utilities (must be included)
 ├── README.md  
 └── requirements.txt            # Python environment dependencies                  
 ```
@@ -82,6 +83,15 @@ JetBot-AI-Traffic-Interaction-System/
 > **Note:** Model files are **not** included in this repository and should be placed manually in `/models/`.  
 > (Download link to be provided by the user.)  
 
+## Model Files
+
+Model weight files are **not included** in this repository due to size and platform constraints.
+
+Please download the required TensorRT models from the link below:
+
+🔗 **Model Download (Google Drive Folder)**  
+https://drive.google.com/drive/folders/1tsehiFhHNQYlPO1pisj3IlyrLNrO-eTO
+  
 ---
 
 ## Hardware & Software Environment
