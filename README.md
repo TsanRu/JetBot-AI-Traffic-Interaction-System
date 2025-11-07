@@ -8,7 +8,7 @@ This project presents an integrated intelligent autonomous driving system based 
   
 The final implementation integrates three components originally developed as separate course projects:
   
-| Module | Source Project | Description |  
+| Module | Description |  
 |-------|---------------|-------------|  
 | **Road Following (Navigation)** | Controls steering and movement through a TensorRT-optimized ResNet18-based model for continuous lane/track following. |  
 | **Traffic Sign Recognition** | Detects six categories of traffic signs using a YOLOv4-tiny model optimized for embedded execution. |  
