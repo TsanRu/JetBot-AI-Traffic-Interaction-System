@@ -50,21 +50,21 @@ Local FastAPI Server (on PC) → OpenAI → Language Reasoning JetBot Action Res
 
 ## Project Structure
 
-JetBot-AI-Traffic-Interaction-System/
-│
-├─ final/ # Final integrated system notebook
-│ └─ final.ipynb
-│
-├─ utils/ # YOLO helper modules (required)
-│
-├─ server/ # FastAPI server (runs on local PC)
-│ └─ server.py
-│
-├─ standard_sign/ # Reference sign images (used for OpenAI prompts)
-│
-├─ detected_img/ # Output directory for captured detections
-│
-├─ models/ # (Empty) Place model files here manually
-│ └─ README.md # "Insert downloaded model files here"
-│
-└─ requirements.txt # Environment dependencies
+JetBot-AI-Traffic-Interaction-System/  
+│  
+├─ final/ # Final integrated system notebook  
+│ └─ final.ipynb  
+│  
+├─ utils/ # YOLO helper modules (required)  
+│  
+├─ server/ # FastAPI server (runs on local PC)  
+│ └─ server.py 
+│  
+├─ standard_sign/ # Reference sign images (used for OpenAI prompts)  
+│  
+├─ detected_img/ # Output directory for captured detections  
+│  
+├─ models/ # (Empty) Place model files here manually  
+│ └─ README.md # "Insert downloaded model files here"  
+│  
+└─ requirements.txt # Environment dependencies  
