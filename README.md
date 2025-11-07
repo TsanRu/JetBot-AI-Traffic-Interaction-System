@@ -16,6 +16,16 @@ The final implementation integrates three components originally developed as sep
   
 ---
 
+## Demo Video
+
+This demonstration shows the JetBot performing real-time road following, traffic sign recognition, and OpenAI-based semantic interaction.
+
+[![Demo Video](https://img.youtube.com/vi/Eqr76V0940g/0.jpg)](https://youtu.be/Eqr76V0940g)
+
+*(Click the image to view on YouTube)*
+
+---
+
 ## Recognized Traffic Signs
   
 | Class Index | Traffic Sign | Meaning (Behavior Applied) |  
