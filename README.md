@@ -6,7 +6,7 @@ This project presents an integrated intelligent autonomous driving system based 
 
 ## System Overview
   
-The final implementation integrates three components originally developed as separate course projects:
+The final implementation integrates three components originally developed as separate sub-projects:
   
 | Module | Description |
 |--------|-------------|  
