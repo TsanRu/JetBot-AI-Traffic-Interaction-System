@@ -75,8 +75,8 @@ JetBot-AI-Traffic-Interaction-System/
 ├── standard_sign/              # Reference sign images for OpenAI prompt
 ├── detected_img/               # Output directory for detected signs
 ├── models/                     # Placeholder: Insert model files here
-└── requirements.txt            # Python environment dependencies
-└── README.md                   
+├── README.md  
+└── requirements.txt            # Python environment dependencies                  
 ```
 
 > **Note:** Model files are **not** included in this repository and should be placed manually in `/models/`.  
