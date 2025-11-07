@@ -10,9 +10,9 @@ The final implementation integrates three components originally developed as sep
   
 | Module | Source Project | Description |  
 |-------|---------------|-------------|  
-| **Road Following (Navigation)** | Midterm Project | TensorRT-optimized ResNet18 steering model controlling continuous navigation. |  
-| **Traffic Sign Recognition** | Project05 | YOLOv4-tiny based detection of six traffic sign categories. |  
-| **AI Semantic Interaction** | Project06 | FastAPI server relays detected sign information to OpenAI for descriptive interpretation. |  
+| **Road Following (Navigation)** | Controls steering and movement through a TensorRT-optimized ResNet18-based model for continuous lane/track following. |  
+| **Traffic Sign Recognition** | Detects six categories of traffic signs using a YOLOv4-tiny model optimized for embedded execution. |  
+| **AI Semantic Interaction** | Sends detected sign information to a FastAPI server on a local PC, where OpenAI interprets the scene and returns a contextual response. |  
   
 ---
 
