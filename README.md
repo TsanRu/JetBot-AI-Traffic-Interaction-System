@@ -70,14 +70,13 @@ graph TD
 JetBot-AI-Traffic-Interaction-System/
 ├── final/
 │   └── final.ipynb             # Main execution notebook
-├── utils/                      # YOLO helper modules and libraries
 ├── server/
 │   └── server.py               # FastAPI server script (Runs on PC)
 ├── standard_sign/              # Reference sign images for OpenAI prompt
 ├── detected_img/               # Output directory for detected signs
-├── models/
-│   └── README.md               # Placeholder: Insert model files here
-└── requirements.txt            # Python environment dependencies  
+├── models/                     # Placeholder: Insert model files here
+└── requirements.txt            # Python environment dependencies
+└── README.md                   
 ```
 
 > **Note:** Model files are **not** included in this repository and should be placed manually in `/models/`.  
