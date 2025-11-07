@@ -52,7 +52,7 @@ graph TD
     G --> H[JetBot Action Response / Explanation];
     H --> D;
 ```
-
+```mermaid
 flowchart TD
 
 %% Camera Input
@@ -76,6 +76,7 @@ E --> G[Behavior Adjustment Logic]
 
 %% Control Update
 G --> C
+```
 ---
 
 ## Key Features
