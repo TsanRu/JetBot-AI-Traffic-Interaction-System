@@ -67,7 +67,8 @@ JetBot-AI-Traffic-Interaction-System/
 ├── models/
 │   └── README.md               # Placeholder: Insert model files here
 └── requirements.txt            # Python environment dependencies  
-  
+/```
+
 > **Note:** Model files are **not** included in this repository and should be placed manually in `/models/`.  
 > (Download link to be provided by the user.)  
 
