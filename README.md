@@ -29,12 +29,18 @@ The final implementation integrates three components originally developed as sep
   
 ---  
 
-## System Data Flow  
-JetBot Camera → Road-Following Model (TensorRT) → Controls Motors  
-↓   
-Traffic Sign Detection (YOLOv4-tiny)  
-↓ (Detected Sign)  
-Local FastAPI Server (on PC) → OpenAI → Language Reasoning JetBot Action Response / Human-Readable Explanation  
+### System Data Flow (Mermaid Flowchart)
+
+```mermaid
+graph TD
+    A[JetBot Camera Feed] --> B{TensorRT Road Following Model};
+    A --> C{YOLOv4-tiny Traffic Sign Detection};
+    B --> D[JetBot Motors & Steering Control];
+    C --> E[Detected Sign Info];
+    E --> F[FastAPI Server on PC];
+    F --> G[OpenAI API];
+    G --> H[JetBot Action Response / Explanation];
+    H --> D;
 
 ---
 
