@@ -69,6 +69,19 @@ JetBot-AI-Traffic-Interaction-System/
 │  
 └─ requirements.txt # Environment dependencies  
 
+```bash
+JetBot-AI-Traffic-Interaction-System/
+├── final/
+│   └── final.ipynb             # Main execution notebook
+├── utils/                      # YOLO helper modules and libraries
+├── server/
+│   └── server.py               # FastAPI server script (Runs on PC)
+├── standard_sign/              # Reference sign images for OpenAI prompt
+├── detected_img/               # Output directory for detected signs
+├── models/
+│   └── README.md               # Placeholder: Insert model files here
+└── requirements.txt            # Python environment dependencies
+
 > **Note:** Model files are **not** included in this repository and should be placed manually in `/models/`.  
 > (Download link to be provided by the user.)  
 
