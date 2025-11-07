@@ -24,11 +24,6 @@ This demonstration shows the JetBot performing real-time road following, traffic
 
 *(Click the image to view on YouTube)*
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Eqr76V0940g" frameborder="0" allowfullscreen></iframe>  
-
-[▶️ Watch Demo Video on YouTube](https://youtu.be/Eqr76V0940g)  
-
-
 ---
 
 ## Recognized Traffic Signs
