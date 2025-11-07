@@ -36,5 +36,35 @@ Traffic Sign Detection (YOLOv4-tiny)
 ↓ (Detected Sign)  
 Local FastAPI Server (on PC) → OpenAI → Language Reasoning JetBot Action Response / Human-Readable Explanation  
 
+---
 
-  
+## Key Features
+
+- Real-time embedded vision-based navigation
+- Multi-threaded processing allows simultaneous driving + detection
+- Traffic signs dynamically influence speed and motion behavior
+- OpenAI provides contextual, human-understandable explanations
+- Modular design — each model can be retrained or replaced independently
+
+---
+
+## Project Structure
+
+JetBot-AI-Traffic-Interaction-System/
+│
+├─ final/ # Final integrated system notebook
+│ └─ final.ipynb
+│
+├─ utils/ # YOLO helper modules (required)
+│
+├─ server/ # FastAPI server (runs on local PC)
+│ └─ server.py
+│
+├─ standard_sign/ # Reference sign images (used for OpenAI prompts)
+│
+├─ detected_img/ # Output directory for captured detections
+│
+├─ models/ # (Empty) Place model files here manually
+│ └─ README.md # "Insert downloaded model files here"
+│
+└─ requirements.txt # Environment dependencies
