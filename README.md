@@ -52,7 +52,7 @@ graph TD
     G --> H[JetBot Action Response / Explanation];
     H --> D;
 ```
-```mermaid
+```
 flowchart TD
 
 %% Camera Input
