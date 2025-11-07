@@ -12,7 +12,7 @@ The final implementation integrates three components originally developed as sep
 |--------|-------------|  
 | **Road Following (Navigation)** | Controls steering and movement through a TensorRT-optimized ResNet18-based model for continuous lane/track following. |  
 | **Traffic Sign Recognition** | Detects six categories of traffic signs using a YOLOv4-tiny model optimized for embedded execution. |  
-| **AI Semantic Interaction** | Sends detected sign information to a FastAPI server on a local PC, where OpenAI interprets the scene and returns a contextual response. |  
+| **AI Semantic Interaction** | Sends detected sign information to a FastAPI server on a local PC, where OpenAI GPT-4o Mini interprets the scene and returns a contextual response. |  
   
 ---
 
@@ -98,7 +98,7 @@ https://drive.google.com/drive/folders/1tsehiFhHNQYlPO1pisj3IlyrLNrO-eTO
 - TensorRT + PyCUDA optimization  
 - YOLOv4-tiny traffic sign model  
 - FastAPI server running on PC  
-- OpenAI API for semantic interpretation  
+- OpenAI GPT-4o Mini for semantic interpretation  
 
 ---
 
